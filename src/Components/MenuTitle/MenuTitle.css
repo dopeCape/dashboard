@@ -1,0 +1,21 @@
+.main__menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.icon__menu {
+  margin-right: 15px;
+}
+
+.title__menu {
+  font-weight: 700;
+}
+
+.wrapper__menu {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
