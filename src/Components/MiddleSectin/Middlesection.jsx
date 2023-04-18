@@ -1,8 +1,8 @@
 import React from "react";
 import "./Middlesection.css";
-function Middlesection() {
+function Middlesection({ middle }) {
   return (
-    <div className="main__middlesction">
+    <div className="main__middlesction" ref={middle}>
       <div className="title__middlesection">Dashboard</div>
       <div claasName="infosectin__middlesection ">
         <InfoSection title={"Connections"} value={2632} percentage={56} first />
@@ -18,12 +18,12 @@ function Middlesection() {
       </div>
       <div className="graph__middlesection">
         <svg
-          className="graph"
-          width="380"
-          height="293"
+          width="460"
+          height="400"
           viewBox="0 0 360 353"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          className="graph__css"
         >
           <line
             x1="40.1077"
@@ -171,6 +171,7 @@ function Middlesection() {
             stroke-width="0.892469"
           />
         </svg>
+
         <div className="scale__graph">
           <div className="title__scale">
             <div className="color__graph" id="connection__scale"></div>

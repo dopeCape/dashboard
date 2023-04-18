@@ -1,9 +1,9 @@
 import React from "react";
 
 import "./RightSection.css";
-function RightSection() {
+function RightSection({ right }) {
   return (
-    <div className="main__rightsection">
+    <div className="main__rightsection" ref={right}>
       <div className="upperdiv__rightsection">
         <div className="search__rightsection">
           <input placeholder="Search" />

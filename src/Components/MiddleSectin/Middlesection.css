@@ -79,6 +79,10 @@
   line-height: 25px;
   margin-top: 10px;
 }
+.graph__css {
+  position: relative;
+  right: 8%;
+}
 .percentage__infoseciton {
   display: flex;
   background: #ddf6de;
@@ -110,9 +114,9 @@
 
 .scale__graph {
   display: flex;
-  margin-top: 8%;
+  margin-top: 4%;
   width: 100%;
-  padding-left: 13%;
+  padding-left: 10%;
 }
 .title__scale {
   display: flex;
