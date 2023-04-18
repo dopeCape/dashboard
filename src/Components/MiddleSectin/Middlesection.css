@@ -1,0 +1,138 @@
+.main__middlesction {
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  position: relative;
+  background: #f8f8f8;
+  display: grid;
+  grid-template-rows: 20% 30% 50%;
+  grid-template-columns: 100%;
+}
+.divier__wrapper {
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+.divider__middlesection {
+  border: 2px solid #ececec;
+  height: 1px;
+  position: relative;
+  right: 2%;
+
+  width: 74%;
+}
+.graph {
+  position: relative;
+  right: 10%;
+}
+.title__middlesection {
+  padding: 10%;
+  padding-top: 4%;
+  font-family: "Sulphur Point";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  /* position: relative; */
+  /* bottom: 10%; */
+  /* left: 15%; */
+
+  flex-wrap: wrap;
+}
+.main__infoscetion {
+  display: flex;
+  flex-direction: column;
+  width: 73%;
+  margin-left: 10%;
+  margin-bottom: 4%;
+
+  margin-top: 4%;
+}
+
+.title__infoseciton {
+  font-family: "Sulphur Point";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #94979a;
+}
+
+.value__infoseciton {
+  font-family: "Rubik";
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 25px;
+  margin-top: 10px;
+}
+.percentage__infoseciton {
+  display: flex;
+  background: #ddf6de;
+  align-items: center;
+  position: relative;
+  height: 26px;
+  border-radius: 8px;
+
+  color: #608662;
+  width: 69px;
+  font-family: "Sulphur Point";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.no_margin_top {
+  margin-top: 0;
+}
+
+.graph__middlesection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scale__graph {
+  display: flex;
+  margin-top: 8%;
+  width: 100%;
+  padding-left: 13%;
+}
+.title__scale {
+  display: flex;
+}
+.color__graph {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+#connection__scale {
+  background: #c2ecc1;
+}
+.title__scale {
+  margin-right: 10px;
+}
+#follows__scale {
+  background: #1f1f1f;
+}
+#invites__scale {
+  background: #c5c7f6;
+}

@@ -1,0 +1,196 @@
+.main__rightsection {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 18% 50% 32%;
+  grid-template-columns: 100%;
+}
+
+.upperdiv__rightsection {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: warp;
+  align-items: center;
+}
+
+.search__rightsection {
+  background: #f8f8f8;
+  border-radius: 10px;
+  height: 40px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 5%;
+}
+.search__icon {
+  margin-right: 3%;
+}
+
+.search__rightsection > input {
+  margin-left: 5%;
+  border: none;
+  outline: none;
+
+  background: #f8f8f8;
+  font-family: "Sulphur Point";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #94979a;
+}
+
+.right__upperdiv {
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  position: relative;
+  left: 3%;
+  bottom: 7%;
+
+  width: 30%;
+}
+.usename__rightsection {
+  font-family: "Sulphur Point";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+.heading__middlesection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.heading {
+  font-family: "Sulphur Point";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  position: relative;
+  right: 5%;
+}
+.datepicker {
+  left: 6%;
+  position: relative;
+}
+.data__rightsection {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 3%;
+
+  margin-left: 10%;
+  justify-content: space-between;
+  width: 62%;
+}
+
+.main__data {
+  display: flex;
+  flex-direction: column;
+}
+
+.title__data {
+  font-family: "Sulphur Point";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+
+  color: #94979a;
+}
+
+.value__data {
+  margin-top: 10%;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 25px;
+}
+.graphs__rightsection {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header__activity {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+.title__activity {
+  font-family: "Sulphur Point";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  margin-left: 8%;
+}
+.datepicker__activity {
+  margin-right: 4%;
+}
+.bottom__rightsection {
+  display: flex;
+  flex-direction: column;
+}
+
+.recent__activity {
+  overflow-y: scroll;
+  max-height: 100%;
+  display: flex;
+  margin-right: 9px;
+  flex-direction: column;
+}
+.recent__activity::-webkit-scrollbar-thumb {
+  background: rgba(236, 236, 236, 0.5);
+  width: 3px;
+  border: 1px solid rgba(19, 19, 19, 0.4);
+  border-radius: 15px;
+  transform: rotate(0.01deg);
+}
+
+.recent__activity::-webkit-scrollbar-track {
+  background-color: white;
+}
+.recent__activity::-webkit-scrollbar {
+  border: 1px solid rgba(19, 19, 19, 0.4);
+  position: absolute;
+  left: 5%;
+}
+.activity {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 8%;
+
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.msg__recent {
+  font-family: "Sulphur Point";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  margin-left: 2%;
+}
+
+.not_bold {
+  font-weight: 400;
+}
+
+.line_break {
+  width: 90%;
+
+  border: 2px solid rgba(236, 236, 236, 0.8);
+  margin-left: 8%;
+}

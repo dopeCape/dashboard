@@ -18,4 +18,12 @@
   align-content: center;
   flex-wrap: wrap;
   justify-content: flex-start;
+  margin-left: 25%;
+}
+
+.logout__wrapper {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }

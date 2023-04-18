@@ -1,8 +1,8 @@
 import React from "react";
 import "./MenuTitle.css";
-function MenuTitle({ icon, title }) {
+function MenuTitle({ icon, title, logout }) {
   return (
-    <div className="wrapper__menu">
+    <div className={`${logout ? "logout__wrapper" : "wrapper__menu"}`}>
       <div className="main__menu">
         <div className="icon__menu">{icon}</div>
 
